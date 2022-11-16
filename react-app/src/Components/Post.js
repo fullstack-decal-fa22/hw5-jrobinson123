@@ -1,4 +1,5 @@
 // ___________________ import statement
+import Comments from './Comments.js'
 
 const Post = ({ title, body, comments, id }) => {
   console.log(id)
