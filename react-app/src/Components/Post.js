@@ -1,3 +1,4 @@
+
 // ___________________ import statement
 import Comments from './Comments.js'
 
@@ -8,7 +9,7 @@ const Post = ({ title, body, comments, id }) => {
       {title}
     </h3>
     <p>{body}</p>
-    <Comments _________ _________ />
+    <Comments postId = {id} comments = {comments} />
   </div>
 }
 
